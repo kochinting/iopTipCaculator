@@ -23,6 +23,34 @@ class SettingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view will appear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did appear")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("view will disappear")
+        
+        let defaults = UserDefaults.standard
+        let tipPercentages = [0.15, 0.2, 0.25]
+        defaults.set(tipPercentages[defaultTipControl.selectedSegmentIndex], forKey: "tipDefault")
+        defaults.synchronize()
+        defaults.set(defaultTipControl.selectedSegmentIndex, forKey: "index")
+        
+        print (tipPercentages)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("view did disappear")
+    }
+    
 
     /*
     // MARK: - Navigation
