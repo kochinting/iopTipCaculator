@@ -24,9 +24,9 @@ The following **additional** features are implemented:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-3rd Commit: UI improvement, add number of people caculation
+3rd Commit: UI improvement, add number of people caculation \n
 4th Commit: change app icon
-5th Commit: revised readme.md
+
 
 ## Video Walkthrough 
 <img src='http://i.imgur.com/jnbcnDZ.gif' />
