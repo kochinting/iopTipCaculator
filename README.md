@@ -11,6 +11,7 @@ Time spent: **9** hours spent in total
 The following **required** functionality is complete:
 * [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [X] Settings page to change the default tip percentage.
+
 The following **additional** features are implemented:
 - [X] change theme color and font size
 - [X] UI Improvement
@@ -29,6 +30,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Video Walkthrough 
 <img src='http://i.imgur.com/jnbcnDZ.gif' />
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
@@ -38,6 +40,7 @@ Fixed bug, change theme color and font size
 ## Video Walkthrough 
 Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/gRj2ICc.gif' />
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
